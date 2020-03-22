@@ -1,15 +1,9 @@
-import  "./App.css";
-import { connect } from 'react-redux'
+import "./App.css";
+import { connect } from "react-redux";
 
-function App(props) {
-    
-}
+function App(props) {}
 
 export default connect(
-    function mapStateToProps(state) {
-        
-    },
-    function mapDispatchToProps(dispatch) {
-        
-    } 
+  function mapStateToProps(state) {},
+  function mapDispatchToProps(dispatch) {}
 )(App);
