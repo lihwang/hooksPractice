@@ -144,8 +144,8 @@
       "node"
     ],
     "watchPlugins": [
-      "/Users/imooc/train-ticket/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/imooc/train-ticket/node_modules/jest-watch-typeahead/testname.js"
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
     ]
   },
   "babel": {
@@ -154,6 +154,7 @@
     ]
   },
   "devDependencies": {
+    "husky": "^2.4.1",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
     "webpack-bundle-analyzer": "^3.3.2"
